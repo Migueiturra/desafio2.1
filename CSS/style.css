@@ -1,0 +1,136 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  font-family: roboto;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar {
+  border: 2px solid;
+  border-color: #e8ebe4;
+  min-width: 300px;
+  min-height: 100vh;
+}
+
+.fotito {
+  max-height: 70px;
+  border-radius: 100%;
+  border: 2px solid;
+  border-color: #e8ebe4;
+}
+
+.mano {
+  max-height: 200px;
+  border-radius: 10%;
+}
+
+.principal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.contenido {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 425px;
+  text-align: center;
+  color: #1b1f21;
+}
+
+ul {
+  list-style: none;
+  margin: 0px;
+  padding-left: 0px;
+}
+
+li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 10px 10px 30px;
+  border-top: 2px solid;
+  border-right: 0px solid;
+  border-color: #e8ebe4;
+  gap: 10px;
+}
+
+.estado {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px 10px 20px;
+}
+
+.usuario {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.activa {
+  max-height: 40px;
+  border-radius: 100%;
+  border: 2px solid;
+  border-color: #e8ebe4;
+}
+
+.cboton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0px 20px 0px;
+}
+
+.boton {
+  color: white;
+  padding: 10px 20px 10px 20px;
+  background-color: blueviolet;
+  width: 150px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.boton:hover {
+  background-color: #cdc3e6;
+}
+
+.boton:active {
+  background-color: #bec1bb;
+}
+
+.iconos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  color: #bec1bb;
+}
+
+.instrucciones {
+  padding-top: 10px;
+}
+
+.nombre {
+  color: #1b1f21;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.frase {
+  color: #444749;
+  font-size: 14px;
+}
